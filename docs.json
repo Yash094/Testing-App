@@ -34,7 +34,7 @@
       }
     }
   },
-  "methods": [
+  "classes": [
     {
       "name": "abandon",
       "construct": {
