@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "generator": "0.9.0",
+    "format": 20,
+    "date": 1619956268404
+  },
+  "custom": {
+    "general": {
+      "name": "General",
+      "files": {
+        "Cool": {
+          "name": "Cool guys are cool",
+          "type": "md",
+          "content": "# Cool\nCool stuff here.\n",
+          "path": "docs/general/Cool.md"
+        },
+        "Heya": {
+          "name": "Hey there",
+          "type": "md",
+          "content": "# Heya\nNothing to see here, sorry.\n",
+          "path": "docs/general/Heya.md"
+        }
+      }
+    },
+    "examples": {
+      "name": "Examples",
+      "files": {
+        "blah": {
+          "name": "Blah",
+          "type": "js",
+          "content": "console.log(42);\n",
+          "path": "docs/examples/blah.js"
+        }
+      }
+    }
+  },
+  "classes": [
+    {
+      "name": "abandon",
+      "construct": {
+        "name": "abandon",
+        "params": [
+          {
+            "name": "text",
+            "description": "text to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 11,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "failure",
+      "construct": {
+        "name": "failure",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 30,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "trash",
+      "construct": {
+        "name": "trash",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 49,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "satan",
+      "construct": {
+        "name": "satan",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 68,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "stroke",
+      "construct": {
+        "name": "stroke",
+        "params": [
+          {
+            "name": "text",
+            "description": "to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 87,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    },
+    {
+      "name": "roblox",
+      "construct": {
+        "name": "roblox",
+        "params": [
+          {
+            "name": "avatar",
+            "description": "url to generate meme",
+            "type": [
+              [
+                [
+                  "String"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "line": 106,
+        "file": "Meme.js",
+        "path": "lib"
+      }
+    }
+  ],
+  "interfaces": [],
+  "typedefs": [],
+  "externals": []
+}
