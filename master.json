@@ -2,17 +2,17 @@
   "meta": {
     "generator": "0.10.0",
     "format": 20,
-    "date": 1625563708736
+    "date": 1625568604594
   },
   "custom": {
-    "welcome": {
-      "name": "Welcome",
+    "general": {
+      "name": "General",
       "files": {
         "welcome": {
           "name": "General",
           "type": "md",
           "content": "# Mongo-Eco - Welcome\n\nMongo-Eco is a powerful module that allows you to create economy system in your bot.\n\n<img src=\"https://nodei.co/npm/memer-api.png?downloads=true&amp;stars=true\" alt=\"NPM info\">\n\n## **Installation**\n```\nnpm install mongo-eco\n```\n\n```js\n//Import package\nconst economy = require(\"mongo-eco\");\n//create new economy() Class\nconst eco = new economy('YOUR MONGODB URI');\n// use the methods\neco.<Method>(<Options>); //returns -> Promise -> \n```\n\n**Join our [Discord Server](https://discord.gg/emD44ZJaSA) for Support**\n\n**For more help view [Documentation ](https://mongo-eco.js.org)**\n\n**[Example Bot](https://github.com/Memer-Api/example-bot-memer-api) Made With Mongo Eco**\n\n## **Features**\n\n* **Super simple**\n* **Easy to use**\n* **Beginner-friendly**\n* **Great Support**\n* **Flexible**\n\n\n# HOW DOES IT WORK\n\n```\n\nconst economy = require(\"mongo-eco\");\n\nconst eco = new economy('YOUR MONGODB URI');\n\n\n```\n\n# EXAMPLE\n```\n//Import package\nconst economy = require(\"mongo-eco\");\n//create new economy() Class\nconst eco = new economy('YOUR MONGODB URI');\n\neco.<Method>(<Options>); //returns -> Promise -> \n\n\n```\n\n\n",
-          "path": "test/docs/welcome/welcome.md"
+          "path": "test/docs/general/welcome.md"
         }
       }
     },
